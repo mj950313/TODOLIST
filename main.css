@@ -1,0 +1,107 @@
+input::placeholder {
+  color: white;
+  font-size: large;
+  
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 5px 0 white;
+  color: white;
+  font-size: large;
+}
+
+input:not(:placeholder-shown) {
+  color: white;
+  font-size: large;
+}
+
+body {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.todoproject {
+  background: url(./bg.jpg) no-repeat center fixed;
+  background-size: 80% 100%;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.clock {
+  font-size: 100px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.nameInput,
+.todoInput {
+  width: 280px;
+  height: 38px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 3px solid white;
+  margin-bottom: 40px;
+  margin-left: 37px;
+  border-radius: 8px;
+}
+
+.nameSubmit {
+  width: 80px;
+  height: 38px;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+  color: white;
+}
+
+#greeting {
+  color: white;
+  margin-bottom: 38px;
+  font-size: 35px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: large;
+}
+
+#weather {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 47px;
+}

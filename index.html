@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODOLIST</title>
+
+
+  <script type="module" defer src="./js/weather.js"></script>
+  <script type="module" defer src="./js/username.js"></script>
+  <script type="module" defer src="./js/todo.js"></script>
+  <script type="module" defer src="./js/clock.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  
+  <div class="todoproject">
+    <div class="todolistbox">
+      <div class="clock">00:00:00</div>
+        <div id="weather">
+          <span></span>
+          <span></span>
+        </div>
+        <form Id="loginForm" class="hidden">
+          <input 
+            class="nameInput" 
+            type="text" 
+            required 
+            maxlength="7"
+            placeholder="What is your name ?"
+          />
+          <input type="submit" value="Enter" class="nameSubmit" />
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
+        <form id="todoForm">
+          <input 
+            class="todoInput"
+            type="text"
+            maxlength="15"
+            placeholder="What is your work today ?"
+            required 
+          />
+        </form>
+        <ul id="todolist"></ul>
+    </div>
+  </div>
+  
+</body>
+</html>

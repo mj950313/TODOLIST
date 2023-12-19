@@ -3,6 +3,7 @@ ToDoList
 기간 : 2023-12-06 ~ 2023-12-13
 개요 : 투두리스트를 만들어보며 JavaScript 공부를 하였습니다.
 �배포링크 :  https://mj950313.github.io/todolist/
+
 ![image](https://github.com/mj950313/todolist/assets/138507900/14b70ddb-0d6c-43cd-8bd8-aa1cb0e7633a)
 ![image](https://github.com/mj950313/todolist/assets/138507900/81d32e8c-ee72-4f2f-b3a9-ad04ad5b6372)
 ![image](https://github.com/mj950313/todolist/assets/138507900/acaab47c-d324-4918-9001-d345727c0cd8)

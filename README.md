@@ -14,7 +14,7 @@ ToDoList
 
 
 디자인
-![image](https://github.com/mj950313/todolist/assets/138507900/a7f6708f-d547-4ca4-9c65-8fcffbd2c67a)
+![image](https://github.com/mj950313/todolist/assets/138507900/91e6e37d-34b5-4d45-a383-b88c48e5d695)
 
 시계&온도&위치 (API사용)
 
@@ -24,8 +24,10 @@ ToDoList
 
 로그인기능
 
+
 구현화면
-![image](https://github.com/mj950313/todolist/assets/138507900/91e6e37d-34b5-4d45-a383-b88c48e5d695)
+![image](https://github.com/mj950313/todolist/assets/138507900/a7f6708f-d547-4ca4-9c65-8fcffbd2c67a)
+
 
 시계&온도&위치 (API사용)
 
